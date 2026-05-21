@@ -1,0 +1,78 @@
+# Environment Variables
+.env
+.env.local
+.env.*.local
+
+# IDE / Editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Composer
+/vendor/
+composer.lock
+
+# Node
+node_modules/
+package-lock.json
+yarn.lock
+npm-debug.log
+
+# Uploads & Cache
+/public/uploads/*
+!public/uploads/.gitkeep
+/tmp/
+/cache/
+
+# Logs
+*.log
+/logs/
+
+# Session Files
+/storage/sessions/
+/sessions/
+
+# OS Files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary Files
+*.tmp
+*.temp
+.~*
+
+# Development Files
+debug.log
+error.log
+
+# Database Backups
+*.sql
+*.sql.gz
+!database.sql
+
+# Configuration with Credentials
+/app/Config/Database.php
+/app/Config/Auth.php
+
+# Archives
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# Secret files
+ADMIN_GUIDE.md
+CONTENT_GUIDE.md
+README.md
+REFERENCE_CARD.md
+SETUP_DEVELOPMENT.md
+SETUP_TUTORIAL.md
+START_HERE.md
+TESTING_GUIDE.md
+TROUBLESHOOTING.md
